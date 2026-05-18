@@ -8,9 +8,8 @@ app.use(cors());
 app.use(express.json());
 
 
-const uri = `mongodb+srv://simpleCrudUser:2MXgqnxH3bLoctnh@cluster0.vyznij5.mongodb.net/?appName=Cluster0`;
+const uri = ``;
 
-// mongodb+srv://simpleCrudUser:2MXgqnxH3bLoctnh@cluster0.vyznij5.mongodb.net/?appName=Cluster0
 // mongodb+srv://<db_username>:<db_password>@cluster0.vyznij5.mongodb.net/?appName=Cluster0
 
 const client = new MongoClient(uri, {
